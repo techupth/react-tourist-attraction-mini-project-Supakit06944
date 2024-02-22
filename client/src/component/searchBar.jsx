@@ -61,7 +61,7 @@ function SearchBar() {
                   <p className="categoty">
                     หมวด :{" "}
                     {item.tags.map((tage, index) => {
-                      if (index === item.tags.length - 1) {
+                      if (index === tage.length - 1) {
                         return (
                           <span key={index}>
                             {" "}
